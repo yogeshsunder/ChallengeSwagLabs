@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InsuranceGuru Suite" duration-ms="55666" started-at="2020-07-15T16:37:03 IST" finished-at="2020-07-15T16:37:58 IST">
+    <groups>
+    </groups>
+    <test name="VerifyAgentLogin" duration-ms="19887" started-at="2020-07-15T16:37:03 IST" finished-at="2020-07-15T16:37:23 IST">
+      <class name="com.TestCases.VerifyAgentLogin">
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.TestCases.VerifyAgentLogin@10366b4]" name="verifyLogin" duration-ms="19161" started-at="2020-07-15T16:37:03 IST" finished-at="2020-07-15T16:37:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TestCases.VerifyAgentLogin@10366b4]" name="tearDown" is-config="true" duration-ms="665" started-at="2020-07-15T16:37:22 IST" finished-at="2020-07-15T16:37:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=VerifyAgentLogin.verifyLogin()[pri:0, instance:com.TestCases.VerifyAgentLogin@10366b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCases.VerifyAgentLogin -->
+    </test> <!-- VerifyAgentLogin -->
+    <test name="VerifyAgentCreateQuote" duration-ms="35698" started-at="2020-07-15T16:37:23 IST" finished-at="2020-07-15T16:37:58 IST">
+      <class name="com.TestCases.VerifyAgentCreateQuote">
+        <test-method status="PASS" signature="VerifyCreateQuote()[pri:0, instance:com.TestCases.VerifyAgentCreateQuote@136e637]" name="VerifyCreateQuote" duration-ms="35557" started-at="2020-07-15T16:37:23 IST" finished-at="2020-07-15T16:37:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateQuote -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.TestCases.VerifyAgentCreateQuote@136e637]" name="tearDown" is-config="true" duration-ms="140" started-at="2020-07-15T16:37:58 IST" finished-at="2020-07-15T16:37:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyCreateQuote status=SUCCESS method=VerifyAgentCreateQuote.VerifyCreateQuote()[pri:0, instance:com.TestCases.VerifyAgentCreateQuote@136e637] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCases.VerifyAgentCreateQuote -->
+    </test> <!-- VerifyAgentCreateQuote -->
+  </suite> <!-- InsuranceGuru Suite -->
+</testng-results>

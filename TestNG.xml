@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="ChallengeSwagLabs Suite" annotations="JDK" parallel="tests">
+   
+   <test name="VerifyAgentLogin">
+	 <classes>
+	   <class name="com.TestCases.VerifyAgentLogin"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAgentCreateQuote">
+	 <classes>
+	   <class name="com.TestCases.VerifyAgentCreateQuote"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAgentCreatePolicy">
+	 <classes>
+	   <class name="com.TestCases.VerifyAgentCreatePolicy"/>
+	 </classes>
+   </test>
+
+   
+   
+</suite>
