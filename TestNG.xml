@@ -2,24 +2,15 @@
 
 <suite thread-count="1" verbose="1" name="ChallengeSwagLabs Suite" annotations="JDK" parallel="tests">
    
-   <test name="VerifyAgentLogin">
+   <test name="VerifyLogin">
 	 <classes>
-	   <class name="com.TestCases.VerifyAgentLogin"/>
+	   <class name="com.TestCases.VerifyLogin"/>
 	 </classes>
    </test>
-   
-   <test name="VerifyAgentCreateQuote">
+   <test name="VerifyDiscount">
 	 <classes>
-	   <class name="com.TestCases.VerifyAgentCreateQuote"/>
+	   <class name="com.TestCases.VerifyDiscount"/>
 	 </classes>
    </test>
-   
-   <test name="VerifyAgentCreatePolicy">
-	 <classes>
-	   <class name="com.TestCases.VerifyAgentCreatePolicy"/>
-	 </classes>
-   </test>
-
-   
    
 </suite>
